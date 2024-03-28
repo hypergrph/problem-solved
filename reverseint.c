@@ -15,7 +15,7 @@ int main() {
         int digit = userInput % 10;
         ptr[i] = digit;
         userInput /= 10;
-    
+    }
     // Tạo số đảo ngược
     int reverseNum = 0;
     for (int i = 0; i < size; i++) {
